@@ -191,6 +191,15 @@
   padding: 20px;
 }
 
+#cart-toast {
+  z-index: 99999;
+  margin: 50px auto;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Spacing scale */
 .signup-container {
   background: #fff;

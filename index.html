@@ -19,9 +19,8 @@
 </head>
 
 
-
 <body>
-   <div id="cart-toast" class="d-none position-fixed top-0 end-0 m-3" style="z-index: 99999;">
+   <div id="cart-toast" class="d-none position-fixed top-0 text-center" >
     <div class="alert alert-success shadow-lg d-flex align-items-center mb-0">
         <i class="fa-solid fa-circle-check me-2"></i>
         <span id="toast-msg">Added Successfully</span>
@@ -59,9 +58,14 @@
         </ul>
 
         <div class="d-flex align-items-center justify-content-center">
-          <form class="d-flex me-3" role="search">
-<input class="form-control me-2 flex-grow-1" type="search" placeholder="Search" aria-label="Search" />            <button class="btn button active" type="submit">Search</button>
-          </form>
+         <form class="d-flex flex-wrap flex-lg-nowrap w-100 me-lg-3 my-2 my-lg-0" role="search">
+  <input class="form-control flex-grow-1 me-lg-2 mb-2 mb-lg-0" 
+         type="search" 
+         placeholder="Search" 
+         aria-label="Search" />
+         
+  <button class="btn button active w-100 w-lg-auto" type="submit">Search</button>
+</form>
 
           <div class="nav-icons d-flex align-items-center">
             <a href="favorites.html" class="text-dark position-relative text-decoration-none me-3">
