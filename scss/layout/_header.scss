@@ -1,0 +1,22 @@
+@import "../abstracts/variables";
+
+.header-section {
+    position: relative;
+    h1{
+        font-size: $header-setion-font;
+        color: $text-main;
+
+    }
+    & h1::before {
+        content: "";
+        position: absolute;
+        left:0px;
+        top:-10px;
+        width: 16px;
+        height: 40px;
+        background-color: $action-color;
+        z-index: 100;
+        border-radius: 4px;
+    }
+
+}

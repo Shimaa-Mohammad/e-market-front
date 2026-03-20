@@ -1,0 +1,67 @@
+@import "../abstracts/variables";
+
+
+
+ .signup-container {
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .img-side {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+        .form-side {
+            padding: 40px;
+        }
+        
+form {
+
+    h2,
+    .form-label {
+        color: $text-main;
+    }
+
+    i{
+        color:$action-color;
+    }
+    input{
+        outline: none !important;
+    }
+}
+    .login-container {
+        background-color: #f4f7f6;
+        display: flex;
+        align-items: center;
+        
+      
+        background: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
+
+    .img-side {
+        object-fit: cover;
+        height: 90%;
+        width: 90%;
+        min-height: 400px;
+    }
+
+    .form-side {
+        padding: 50px 40px;
+    }
+
+    .btn-login {
+        background-color: #0d6efd;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .btn-login:hover {
+        background-color: #0b5ed7;
+        transform: translateY(-2px);
+    }
+    }

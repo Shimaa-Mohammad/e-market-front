@@ -1,0 +1,103 @@
+@import "../abstracts/variables";
+
+$nav-bg: #0F172A;
+$action-color: #6366F1;
+$main-bg: #F8FAFC;
+$card-bg: #FFFFFF;
+$text-muted: #94A3B8;
+$success-color: #10B981;
+
+.product-card {
+  height: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background-color: $card-bg;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+
+  &:hover {
+    border: 1px solid $action-color;
+    transform: translateY(-5px);
+
+    .product-card-image {
+      transform: scale(1.05);
+    }
+  }
+
+  .product-card-image {
+    width: 85%;
+    height: 220px;
+    object-fit: contain;
+    padding: 20px;
+    margin: 0;
+    background-color: $card-bg;
+    transition: transform 0.5s ease;
+  }
+
+  .card-body {
+    background-color: $card-bg;
+    padding: 15px;
+  }
+
+  .card-title {
+    min-height: 48px;
+    font-size: 17px;
+    margin-bottom: 8px;
+    color: $nav-bg;
+  }
+
+  .card-text {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: $nav-bg;
+  }
+
+  .product-rating {
+    color: $action-color;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .product-wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background-color: $card-bg;
+    color: $text-muted;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+
+    &:hover {
+      color: $action-color;
+    }
+  }
+}
+.cart-card{
+  box-shadow: 0 12px 10px rgba(0,0,0,0.1);
+}
+
+.cart-item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.summary-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+}

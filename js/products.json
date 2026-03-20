@@ -1,0 +1,397 @@
+{
+    "products":[
+  {
+    "id": "1",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/moisturizer.jpg",
+    "name": "Hydrating Facial Moisturizer",
+    "rating": {
+      "stars": 5.7,
+      "count": 120
+    },
+    "priceCents": 2000,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Skincare",
+    "keywords": [
+      "moisturizer",
+      "hydration",
+      "skincare",
+      "beauty"
+    ],
+    "description": "This Hydrating Facial Moisturizer is expertly formulated to deeply nourish and hydrate your skin, providing lasting moisture and a smooth, radiant complexion. Ideal for daily use."
+  },
+  {
+    "id": "2",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/shampoo.jpg",
+    "name": "Anti-Dandruff Shampoo",
+    "rating": {
+      "stars": 4.5,
+      "count": 85
+    },
+    "priceCents": 1500,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Hair Care",
+    "keywords": [
+      "shampoo",
+      "hair care",
+      "anti-dandruff",
+      "cleanse"
+    ],
+    "description": "Our Anti-Dandruff Shampoo effectively combats flakes and itchiness, promoting a healthy scalp. Infused with soothing ingredients, it cleanses your hair without stripping natural oils."
+  },
+  {
+    "id": "3",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/foundation.jpg",
+    "name": "Matte Liquid Foundation",
+    "rating": {
+      "stars": 4.6,
+      "count": 98
+    },
+    "priceCents": 2200,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Makeup",
+    "keywords": [
+      "foundation",
+      "makeup",
+      "beauty",
+      "matte"
+    ],
+    "description": "This Matte Liquid Foundation offers a flawless finish with long-lasting wear. Lightweight and breathable, it blends seamlessly into the skin, providing even coverage and a natural look."
+  },
+  {
+    "id": "4",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/perfume.jpg",
+    "name": "Eau de Parfum - Floral Scent",
+    "rating": {
+      "stars": 4.8,
+      "count": 160
+    },
+    "priceCents": 3500,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Fragrances",
+    "keywords": [
+      "perfume",
+      "fragrance",
+      "scent",
+      "floral"
+    ],
+    "description": "Experience the essence of blooming florals with our Eau de Parfum. This captivating scent envelops you in elegance, making it perfect for any occasion, leaving a lasting impression."
+  },
+  {
+    "id": "5",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/shaving-kit.jpg",
+    "name": "Men's Shaving Kit",
+    "rating": {
+      "stars": 4.4,
+      "count": 70
+    },
+    "priceCents": 1800,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Grooming",
+    "keywords": [
+      "shaving kit",
+      "grooming",
+      "men",
+      "razor"
+    ],
+    "description": "This Men's Shaving Kit includes everything needed for a close, comfortable shave. Featuring a premium razor and soothing gel, it ensures a smooth experience with every use."
+  },
+  
+
+  {
+    "id": "8",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/conditioner.jpg",
+    "name": "Moisturizing Conditioner",
+    "rating": {
+      "stars": 4.6,
+      "count": 110
+    },
+    "priceCents": 1700,
+    "category": "Beauty & Personal Care",
+    "subCategory": "Hair Care",
+    "keywords": [
+      "conditioner",
+      "hair care",
+      "moisturizing",
+      "smooth"
+    ],
+    "description": "Our Moisturizing Conditioner deeply hydrates and detangles hair, leaving it soft, shiny, and manageable. Perfect for all hair types, it helps restore natural moisture balance."
+  },
+
+ 
+  {
+    "id": "11",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/wireless-headphones.jpg",
+    "name": "Wireless Bluetooth Headphones",
+    "rating": {
+      "stars": 4.7,
+      "count": 230
+    },
+    "priceCents": 7999,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Audio",
+    "keywords": [
+      "headphones",
+      "bluetooth",
+      "audio",
+      "electronics"
+    ],
+    "description": "Experience superior sound quality with these wireless Bluetooth headphones, designed for comfort and portability for everyday use."
+  },
+ 
+  {
+    "id": "14",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/laptop.jpg",
+    "name": "Gaming Laptop - 16GB RAM, 512GB SSD",
+    "rating": {
+      "stars": 4.9,
+      "count": 210
+    },
+    "priceCents": 120000,
+    "category": "Electronics & Gadgets",
+    "subCategory": "Computers",
+    "keywords": [
+      "laptop",
+      "gaming",
+      "computers",
+      "electronics"
+    ],
+    "description": "Unleash your gaming potential with this powerful gaming laptop featuring 16GB RAM and 512GB SSD for speed and performance."
+  },
+  
+  {
+    "id": "26",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/formal-shirt.jpg",
+    "name": "Men's Formal Shirt",
+    "rating": {
+      "stars": 4.3,
+      "count": 85
+    },
+    "priceCents": 3100,
+    "category": "Fashion & Apparel",
+    "subCategory": "Men's Clothing",
+    "keywords": [
+      "formal shirt",
+      "men's fashion",
+      "clothing",
+      "shirt"
+    ],
+    "description": "This Men's Formal Shirt combines elegance with comfort. Tailored to perfection, it features a classic collar and a crisp finish, making it the ideal choice for business meetings or formal occasions."
+  },
+  {
+    "id": "27",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/heels.jpg",
+    "name": "Women's High Heels",
+    "rating": {
+      "stars": 4.6,
+      "count": 105
+    },
+    "priceCents": 4500,
+    "category": "Fashion & Apparel",
+    "subCategory": "Footwear",
+    "keywords": [
+      "heels",
+      "women's footwear",
+      "fashion",
+      "shoes"
+    ],
+    "description": "Step into sophistication with these Women's High Heels, featuring a sleek design and comfortable fit. Perfect for parties, weddings, or a night out, they will elevate any outfit with a touch of glamour."
+  },
+  
+  {
+    "id": "30",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/slippers.jpg",
+    "name": "Comfortable Flip-Flops",
+    "rating": {
+      "stars": 4.2,
+      "count": 70
+    },
+    "priceCents": 1200,
+    "category": "Fashion & Apparel",
+    "subCategory": "Footwear",
+    "keywords": [
+      "flip-flops",
+      "slippers",
+      "footwear",
+      "casual"
+    ],
+    "description": "Enjoy ultimate comfort with these Comfortable Flip-Flops. Designed for casual wear, they feature soft straps and cushioned soles, making them perfect for the beach, pool, or everyday relaxation."
+  },
+ 
+  
+  {
+    "id": "33",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/vacuum-cleaner.jpg",
+    "name": "Cordless Vacuum Cleaner",
+    "rating": {
+      "stars": 4.4,
+      "count": 180
+    },
+    "priceCents": 18000,
+    "category": "Home & Kitchen",
+    "subCategory": "Home Appliances",
+    "keywords": [
+      "vacuum cleaner",
+      "cordless",
+      "cleaning",
+      "home"
+    ],
+    "description": "Enjoy effortless cleaning with this cordless vacuum cleaner, designed for convenience and efficiency, easily reaching corners and tight spaces without any cords."
+  },
+  
+  {
+    "id": "35",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/dinnerware.jpg",
+    "name": "Porcelain Dinnerware Set",
+    "rating": {
+      "stars": 4.9,
+      "count": 70
+    },
+    "priceCents": 16000,
+    "category": "Home & Kitchen",
+    "subCategory": "Dinnerware & Serveware",
+    "keywords": [
+      "dinnerware",
+      "porcelain",
+      "kitchen",
+      "tableware"
+    ],
+    "description": "Elevate your dining experience with this exquisite porcelain dinnerware set, perfect for both everyday meals and special occasions, combining elegance and functionality."
+  },
+  {
+    "id": "36",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/mattress.jpg",
+    "name": "Memory Foam Mattress",
+    "rating": {
+      "stars": 4.8,
+      "count": 140
+    },
+    "priceCents": 75000,
+    "category": "Home & Kitchen",
+    "subCategory": "Bedding",
+    "keywords": [
+      "mattress",
+      "memory foam",
+      "bedding",
+      "sleep"
+    ],
+    "description": "Experience superior comfort with our memory foam mattress, designed to contour to your body and provide excellent support for a restful night’s sleep."
+  },
+  
+  {
+    "id": "43",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/protein-powder.jpg",
+    "name": "Whey Protein Powder - 2kg",
+    "rating": {
+      "stars": 4.6,
+      "count": 180
+    },
+    "priceCents": 35000,
+    "category": "Health & Fitness",
+    "subCategory": "Sports Nutrition",
+    "keywords": [
+      "protein",
+      "nutrition",
+      "supplement",
+      "sports"
+    ],
+    "description": "This Whey Protein Powder provides an excellent source of protein for muscle recovery and growth. The 2kg package is ideal for athletes and fitness enthusiasts aiming for optimal nutrition."
+  },
+ 
+  {
+    "id": "45",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/first-aid-kit.jpg",
+    "name": "Compact First Aid Kit",
+    "rating": {
+      "stars": 4.9,
+      "count": 150
+    },
+    "priceCents": 12000,
+    "category": "Health & Fitness",
+    "subCategory": "First Aid",
+    "keywords": [
+      "first aid",
+      "kit",
+      "medical",
+      "emergency"
+    ],
+    "description": "This Compact First Aid Kit is essential for home, travel, or emergency situations. Packed with necessary supplies, it ensures you're prepared for minor injuries and emergencies."
+  },
+  {
+    "id": "46",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/hand-sanitizer.jpg",
+    "name": "Alcohol-Based Hand Sanitizer - 500ml",
+    "rating": {
+      "stars": 4.5,
+      "count": 90
+    },
+    "priceCents": 800,
+    "category": "Health & Fitness",
+    "subCategory": "Personal Health",
+    "keywords": [
+      "hand sanitizer",
+      "personal health",
+      "hygiene",
+      "sanitizer"
+    ],
+    "description": "Keep your hands clean and germ-free with this Alcohol-Based Hand Sanitizer. The 500ml bottle is perfect for personal use at home or on the go, providing effective sanitization."
+  },
+  {
+    "id": "47",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/gloves.jpg",
+    "name": "Workout Gloves - Pair",
+    "rating": {
+      "stars": 4.4,
+      "count": 100
+    },
+    "priceCents": 3000,
+    "category": "Health & Fitness",
+    "subCategory": "Sports Gear & Accessories",
+    "keywords": [
+      "gloves",
+      "workout",
+      "sports",
+      "fitness"
+    ],
+    "description": "Enhance your workout experience with these comfortable Workout Gloves. Designed to provide grip and protection, they are perfect for lifting weights or performing rigorous exercises."
+  },
+  {
+    "id": "48",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/thermometer.jpg",
+    "name": "Infrared Digital Thermometer",
+    "rating": {
+      "stars": 4.7,
+      "count": 120
+    },
+    "priceCents": 15000,
+    "category": "Health & Fitness",
+    "subCategory": "Health Monitors",
+    "keywords": [
+      "thermometer",
+      "digital",
+      "health",
+      "infrared"
+    ],
+    "description": "This Infrared Digital Thermometer allows for quick and accurate temperature readings. Perfect for home health monitoring, it provides fast results without physical contact."
+  },
+  {
+    "id": "49",
+    "image": "https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/images/products/yoga-mat.jpg",
+    "name": "Non-Slip Yoga Mat",
+    "rating": {
+      "stars": 4.6,
+      "count": 200
+    },
+    "priceCents": 5000,
+    "category": "Health & Fitness",
+    "subCategory": "Yoga & Meditation Supplies",
+    "keywords": [
+      "yoga mat",
+      "fitness",
+      "yoga",
+      "exercise"
+    ],
+    "description": "The Non-Slip Yoga Mat is designed for stability and comfort during yoga sessions. Its durable material ensures a safe practice, making it ideal for all skill levels and styles."
+  }
+
+]
+}

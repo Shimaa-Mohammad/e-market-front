@@ -1,0 +1,49 @@
+@import "../abstracts/variables";
+
+
+.navbar {
+  padding: $space-md $space-lg;
+  background-color:  $nav-bg;
+  .navbar-brand {
+    margin-right: $space-xl;
+    color: $text-on-dark;
+  }
+.logo-img {
+    height: 60px;         
+    object-fit: contain;   
+    transition: transform 0.3s ease; 
+}
+  .navbar-nav {
+    gap: $space-md;
+  }
+.navbar-brand{
+  color:$text-on-dark;
+}
+  .nav-link {
+    padding: $space-sm $space-md;
+    color: $text-on-dark;
+    font-weight: 500;
+    &:hover{
+        color: $text-muted;
+    }
+  }
+
+  .navbar-collapse {
+    column-gap: $space-lg;
+  }
+
+  .nav-icons {
+    display: flex;
+    gap: $space-md;
+    margin-left: $space-lg;
+
+    i {
+      font-size: 18px;
+      cursor: pointer;
+    }
+    
+  }
+}
+.fa-bag-shopping , .fa-heart{
+   color: $text-on-dark;
+}

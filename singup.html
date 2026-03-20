@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- google awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  
+    <nav class="navbar   mb-5">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">My Store</a>
+            <div class="text-white">
+                <i class="fas fa-shopping-cart"></i> 
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="row signup-container g-0">
+        <div class="col-md-6 d-none d-md-block">
+            <img src="assets/signup.webp" alt="Signup Image" class="img-side">
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-side">
+                <h2 class="mb-4 fw-bold text-center">إنشاء حساب جديد</h2>
+            <form id="register-form">
+    <div class="mb-3">
+        <label class="form-label">اسم المستخدم</label>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+            <input type="text" id="name" class="form-control" placeholder="الاسم الأول والأخير">
+        </div>
+        <span id="name-error" class="text-danger small text-center" style="display:none;">الاسم يجب أن يكون ثلاثي أو ثنائي بالكامل</span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">البريد الإلكتروني</label>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" id="email" class="form-control" placeholder="example@gmail.com">
+        </div>
+        <span id="email-error" class="text-danger small text-center" style="display:none;">من فضلك ادخل ايميل صحيح</span>
+    </div>
+
+    <div class="mb-4">
+        <label class="form-label">كلمة المرور</label>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" id="password" class="form-control" placeholder="********">
+        </div>
+        <span id="password-error" class="text-danger small text-center" style="display:none;">يجب أن تحتوي على حرف كبير، صغير، ورقم (8 رموز)</span>
+    </div>
+
+    <div class="d-grid mb-3">
+        <button type="submit" class="btn button btn-lg">إنشاء حساب</button>
+    </div>
+     <div class="text-center mt-3">
+
+        <p class="mb-0 text-muted">لديك حساب بالفعل؟
+
+            <a href="login.html" class="text-success fw-bold text-decoration-none">تسجيل الدخول</a>
+
+        </p>
+
+    </div>
+    <div id="already-regiter" class="alert alert-warning position-fixed start-50 translate-middle-x fw-bold" style="top:-100px; transition: 0.5s; z-index: 9999;">هذا الإيميل مسجل بالفعل!</div>
+    <div id="success-regiter" class="alert alert-success position-fixed start-50 translate-middle-x fw-bold" style="top:-100px; transition: 0.5s; z-index: 9999;">تم التسجيل بنجاح.. جاري التحويل</div>
+ </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+   <script src="./js/register.js"></script>
+</body>
+
+</html>

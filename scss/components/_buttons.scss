@@ -1,0 +1,42 @@
+@import "../abstracts/variables";
+
+.button{
+  border-radius: 12px;
+  padding: 5px 22px;
+  transition: 0.4s ease;
+  font-weight: 500;
+  font-size: 19px;
+  background-color:$text-muted;
+  border:none;
+  border-radius: 12px;
+  color:$text-on-dark;
+  transition: 0.5s ease;
+
+  
+  &:hover {
+    background-color: $action-color;
+    color:$text-on-dark;
+  }
+
+
+
+}
+.button.active{
+    background-color: $action-color;
+    color:$text-on-dark;
+}
+// notification
+#cart-toast {
+  position: fixed;
+  top: 12%;
+  left: 40%;
+  z-index: 1000;
+  .alert{
+    min-width: 250px;
+    background-color: $success-color;
+  }
+}
+.add-to-cart-btn{
+  font-size: 18px;
+  height: 40px;
+}

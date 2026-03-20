@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجاتي المفضلة</title>
+    <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- google awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="main.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!--google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-arrow-left me-2"></i> Back to Store
+            </a>
+            <span class="navbar-brand">
+                Favorites (<span id="fav-count">0</span>)
+            </span>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        
+
+        <h2 class="mb-4 text-center fw-bold">Your Favorites</h2>
+        <div id="favorites-list" class="row">
+             <div class="empty-state col-12 d-none text-center" id="empty">
+                    <i class="fa-regular fa-heart fa-4x mb-3 text-muted"></i>
+                    <h3>Favourite List is Empty</h3>
+                    <p> Add New Favourites</p>
+                 <a href="index.html"><button class="btn button border" type="button">Buy now</button></a>   
+                </div>
+            </div>
+    </div>
+
+
+
+    <script src="js/favourites.js"></script>
+</body>
+</html>
